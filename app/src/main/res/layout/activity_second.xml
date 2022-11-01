@@ -14,7 +14,42 @@
         android:text="KONFIRMASI PENDAFTARAN"
         android:textSize="17sp"
         android:layout_marginTop="30dp"
-        android:gravity="center"
+        android:gravity="center"/>
+
+    <TableLayout
+        android:id="@+id/tl_konfir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_konfirmasi">
+
+        <TextView
+            android:id="@+id/tv_nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Christian"
+            android:textStyle="bold"
+            android:layout_below="@id/tv_konfirmasi"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/tv_nomor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="2024240081"
+            android:textStyle="bold"
+            android:layout_below="@+id/tv_nama"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/tv_jalur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Tes Tertulis"
+            android:textStyle="bold"
+            android:layout_below="@id/tv_nomor"
+            android:layout_marginTop="30dp"/>
+
+    </TableLayout>
 
 </RelativeLayout>
 
